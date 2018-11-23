@@ -1,0 +1,5011 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic);
+.container {
+  margin: 0 auto;
+  width: 960px;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.g1,
+.g2,
+.g3,
+.g4,
+.g5,
+.g6,
+.g7,
+.g8,
+.g9,
+.g10,
+.g11,
+.g12 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.alpha {
+  margin-left: 0 !important;
+}
+.omega {
+  margin-right: 0 !important;
+}
+.alphaomega {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.g1 {
+  width: 60px;
+}
+.g2 {
+  width: 140px;
+}
+.g3 {
+  width: 220px;
+}
+.g4 {
+  width: 300px;
+}
+.g5 {
+  width: 380px;
+}
+.g6 {
+  width: 460px;
+}
+.g7 {
+  width: 540px;
+}
+.g8 {
+  width: 620px;
+}
+.g9 {
+  width: 700px;
+}
+.g10 {
+  width: 780px;
+}
+.g11 {
+  width: 860px;
+}
+.g12 {
+  width: 940px;
+}
+.gradiente-rojo {
+  background-color: #d02e10;
+  background-image: linear-gradient(0deg, #901a11 0%,#d02e10 100%);
+}
+.gradiente-gris-tenue {
+  background-color: #F9F9F9;
+  background-image: linear-gradient(0deg, #dfdfdf 0%,white 100%);
+}
+.gradiente-gris-light {
+  background-color: #f2f2f2;
+  background-image: linear-gradient(0deg, white 0%, #f2f2f2 100%);
+}
+.gradiente-gris-light-invert {
+  background-color: white;
+  background-image: linear-gradient(0deg, #f2f2f2 0%, white 100%);
+}
+.gradiente-megamenu {
+  background-color: #444;
+  background-image: linear-gradient(0deg, black 0%, #444 100%);
+}
+.gradiente-top-header {
+  background-color: #444;
+  background-image: linear-gradient(90deg, black 0%, #444 100%);
+}
+.gradiente-btn-gris {
+  background-color: #eeeeee;
+  background-image: linear-gradient(0deg, #dfdfdf 0%,#eeeeee 100%);
+}
+.gradiente-btn-gris-hover {
+  background-color: #bbb;
+  background-image: linear-gradient(0deg, #767676 0%,#bbb 100%);
+}
+.gradiente-btn-rojo {
+  background-color: #d02e10;
+  background-image: linear-gradient(0deg, #d02e10 0%,#901a11 100%);
+}
+.gradiente-btn-negro {
+  background-color: black;
+  background-image: linear-gradient(0deg, black 0%, #666 100%);
+}
+.gradiente-btn-none {
+  background-color: transparent;
+  background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%);
+}
+.sombra-small {
+  box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
+}
+.sombra-medium {
+  box-shadow: 0 2px 3px 0px rgba(0,0,0,0.2);
+}
+.sombra-big {
+  box-shadow: 0 1px 15px rgba(0,0,0,0.5);
+}
+.sombra-none {
+  box-shadow: 0 0px 0px transparent;
+}
+.sombra-superior {
+  box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.13);
+}
+.sombra-promo {
+  box-shadow: 0 3px 7px 0px rgba(0,0,0,0.16);
+}
+.text-shadow-black {
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+}
+.text-shadow-white {
+  text-shadow: 0 -1px white;
+}
+.outborder {
+  border: 1px #dddddd solid;
+}
+.out {
+  outline: 1px dotted rgba(128, 128, 128, 0.5);
+}
+.btn-familia-hover {
+  background-color: #e4e4e4;
+  background-image: linear-gradient(0deg, #e4e4e4 0%,white 100%);
+}
+.personas-g {
+  background-color: #d02e10;
+  background-image: linear-gradient(0deg, #901a11 0%,#d02e10 100%);
+}
+.empresas-g {
+  background-color: #b3b5b4;
+  background-image: linear-gradient(0deg, #757776 0%,#b3b5b4 100%);
+}
+.corporaciones-g {
+  background-color: #444444;
+  background-image: linear-gradient(0deg, #202020 0%,#444444 100%);
+}
+.btn-megamenu {
+  background-color: #444;
+  background-image: linear-gradient(0deg, black 0%, #444 100%);
+}
+.btn-producto {
+  background-color: #eeeeee;
+  background-image: linear-gradient(0deg, #dfdfdf 0%,#eeeeee 100%);
+}
+.btn-producto-hover {
+  background-color: #d02e10;
+  background-image: linear-gradient(0deg, #901a11 0%,#d02e10 100%);
+}
+.bx {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fx {
+  transition: 0.2s;
+}
+.cf {
+  *zoom: 1;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.imgr {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+::-moz-selection {
+  background: rgba(208, 46, 16, 0.9);
+  color: white;
+  text-shadow: 0 1px black;
+}
+::selection {
+  background: rgba(208, 46, 16, 0.9);
+  color: white;
+  text-shadow: 0 1px black;
+}
+.cancel-arrow::before {
+  display: none;
+}
+.cancel-arrow:hover::before {
+  display: none;
+}
+.spacer-b {
+  margin-bottom: 24px;
+}
+.spacer-t {
+  margin-top: 24px;
+}
+.minispacer-b {
+  margin-bottom: 12px;
+}
+.minispacer-t {
+  margin-top: 12px;
+}
+.mixin-precio {
+  *zoom: 1;
+  color: black;
+  display: block;
+  font-size: 2.3em;
+  font-weight: bold;
+}
+.mixin-precio:before,
+.mixin-precio:after {
+  content: " ";
+  display: table;
+}
+.mixin-precio:after {
+  clear: both;
+}
+.twitter-btn {
+  border-radius: 3px;
+  background-clip: padding-box;
+  background-image: linear-gradient(0deg, #ddd 0%, #ffffff 100%);
+  background-color: #ddd;
+  border: #cccccc solid 1px;
+  color: #333 !important;
+  font-size: 13px;
+  font-weight: bold;
+  height: 17px;
+  outline: none;
+  padding: 2px 6px 3px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  vertical-align: top;
+  white-space: nowrap;
+}
+.btn-rojo {
+  background-color: #d02e10;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+  background-image: linear-gradient(0deg, #941b12 0%, #d52b1e 100%);
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  width: 87px;
+}
+.btn-rojo:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 -2px 5px rgba(255,255,255,0.3);
+}
+.btn-rojo:active {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.cont-rojo {
+  background-color: #d02e10;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+  background-image: linear-gradient(0deg, #941b12 0%, #d52b1e 100%);
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  width: 87px;
+  margin: auto;
+  padding: .5em;
+  color: white;
+  width: auto;
+  cursor: inherit;
+  display: block;
+}
+.cont-rojo:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 -2px 5px rgba(255,255,255,0.3);
+}
+.cont-rojo:active {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.btn-gris {
+  background-color: #6a6a6a;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+  background-image: linear-gradient(0deg, #6a6a6a 0%, #b9b9b9 100%);
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  width: 87px;
+}
+.btn-gris:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 -2px 5px rgba(255,255,255,0.3);
+}
+.btn-gris:active {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.btn-gris-light {
+  background-color: #eee;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+  background-image: linear-gradient(0deg, #eeeeee 0%, #ffffff 100%);
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  width: 87px;
+}
+.btn-gris-light:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 -2px 5px rgba(255,255,255,0.3);
+}
+.btn-gris-light:active {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.btn-disabled {
+  background-color: #f3f3f4;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+  background-image: linear-gradient(0deg, #828386 0%, #f3f3f4 100%);
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  width: 87px;
+  color: black !important;
+  text-transform: capitalize;
+}
+.btn-disabled:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 -2px 5px rgba(255,255,255,0.3);
+}
+.btn-disabled:active {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.link {
+  color: #3481b7 !important;
+}
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link i {
+  text-decoration: none;
+}
+.precio {
+  color: #d62a20;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.padding {
+  padding: 10px;
+}
+.flag {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+}
+.flag-ar {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -16px 0;
+}
+.flag-br {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -32px 0;
+}
+.flag-cl {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -48px 0;
+}
+.flag-co {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -64px 0;
+}
+.flag-cr {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: 0 -11px;
+}
+.flag-do {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -16px -11px;
+}
+.flag-ec {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -32px -11px;
+}
+.flag-gt {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -48px -11px;
+}
+.flag-hn {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -64px -11px;
+}
+.flag-ni {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: 0 -22px;
+}
+.flag-pa {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -16px -22px;
+}
+.flag-pe {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -32px -22px;
+}
+.flag-pr {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -48px -22px;
+}
+.flag-py {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -64px -22px;
+}
+.flag-sv {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: 0 -33px;
+}
+.flag-uy {
+  width: 16px;
+  height: 11px;
+  background: url('img/spr-flags.png') no-repeat;
+  display: inline-block;
+  background-position: -16px -33px;
+}
+@font-face {
+  font-family: 'din';
+  src: url('font/din-webfont.eot');
+  src: url('font/din-webfont.eot?#iefix') format('embedded-opentype'), url('font/din-webfont.woff') format('woff'), url('font/din-webfont.ttf') format('truetype'), url('font/din-webfont.svg#dinmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinmedium';
+  src: url('font/din_medium-webfont.eot');
+  src: url('font/din_medium-webfont.eot?#iefix') format('embedded-opentype'), url('font/din_medium-webfont.woff') format('woff'), url('font/din_medium-webfont.ttf') format('truetype'), url('font/din_medium-webfont.svg#dinmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.din {
+  font-family: 'din', sans-serif;
+  letter-spacing: -0.08em;
+}
+.din-medium {
+  font-family: 'dinmedium', sans-serif;
+  letter-spacing: -0.08em;
+}
+.mixin-lista,
+.listing {
+  margin: 12px 0 24px;
+}
+.mixin-lista li,
+.listing li {
+  line-height: 1.3;
+  margin-bottom: 8px;
+  margin-left: 13px;
+  text-align: left;
+}
+.mixin-lista li:before,
+.listing li:before {
+  color: #d02e10;
+  content: '\2022';
+  display: block;
+  font-size: 18px;
+  left: -10px;
+  max-height: 0px;
+  max-width: 0px;
+  position: relative;
+  top: -4px;
+}
+#noscript {
+  text-align: center;
+  padding: 24px 0 24px 0;
+  color: black;
+  background-color: yellow;
+}
+#divResultado .cont-busqueda {
+  background: white;
+  padding: 10px 0px;
+}
+#divResultado .cont-busqueda .busqueda,
+#divResultado .cont-busqueda .buesqueda {
+  margin-top: 20px;
+  margin-left: 0;
+}
+#divResultado .cont-busqueda .busqueda h3 a,
+#divResultado .cont-busqueda .buesqueda h3 a {
+  display: inline-block;
+  font-size: 16px;
+  color: #00c;
+  text-decoration: underline;
+  font-weight: normal;
+}
+#divResultado .cont-busqueda .busqueda h3 a:hover,
+#divResultado .cont-busqueda .buesqueda h3 a:hover {
+  color: #d02e10;
+}
+#divResultado .cont-busqueda .busqueda .content-busqueda,
+#divResultado .cont-busqueda .buesqueda .content-busqueda {
+  width: 100%;
+  overflow: hidden;
+}
+#divResultado .cont-busqueda .busqueda .content-busqueda .resumen,
+#divResultado .cont-busqueda .buesqueda .content-busqueda .resumen {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  line-height: 1.5em;
+  overflow: hidden;
+  float: left;
+  color: #666;
+}
+#divResultado .cont-busqueda .busqueda .content-busqueda .resumen p,
+#divResultado .cont-busqueda .buesqueda .content-busqueda .resumen p {
+  line-height: 1.3em;
+  font-size: 17px;
+  font-weight: normal;
+}
+#divResultado .cont-busqueda .busqueda .content-busqueda .resumen p a,
+#divResultado .cont-busqueda .buesqueda .content-busqueda .resumen p a {
+  margin: 5px 0px;
+  color: #008000;
+  font-weight: normal;
+  font-size: 13px;
+}
+.text_rojo {
+  color: #d02e10;
+}
+.standard {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+  margin-bottom: 24px;
+}
+.standard .main {
+  float: left;
+  width: 672px;
+}
+.standard .main h1 {
+  font-family: 'dinmedium', sans-serif;
+  letter-spacing: -0.08em;
+  font-size: 28px;
+  font-variant: normal;
+  margin: 0 0 24px;
+  letter-spacing: initial;
+}
+.standard .main hr {
+  border: dotted #DFDFDF;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 16px 0;
+}
+.standard .main h3 {
+  color: #333;
+  margin: 0 0 16px;
+}
+.standard .main h3 .blueLink {
+  font-size: 0.85em;
+  font-weight: normal;
+  margin-left: 16px;
+}
+.standard .main p {
+  margin: 12px 0;
+}
+.standard .button {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  color: #FFF;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  vertical-align: middle;
+}
+.standard .button.primary {
+  background: #D52B1E;
+  background: -moz-linear-gradient(top, #d52b1e 0%, #901a11 100%);
+  background: -ms-linear-gradient(top, #d52b1e 0%, #901a11 100%);
+  background: -o-linear-gradient(top, #d52b1e 0%, #901a11 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d52b1e), color-stop(100%, #901a11));
+  background: -webkit-linear-gradient(top, #d52b1e 0%, #901a11 100%);
+  background: linear-gradient(to bottom, #d52b1e 0%, #901a11 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d52b1e', endColorstr='#901a11', GradientType=0);
+}
+.standard .button.primary:hover {
+  background: #D52B1E;
+}
+.standard .button.secondary {
+  background: #ADAFAF;
+  background: -moz-linear-gradient(top, #adafaf 0%, #747676 100%);
+  background: -ms-linear-gradient(top, #adafaf 0%, #747676 100%);
+  background: -o-linear-gradient(top, #adafaf 0%, #747676 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adafaf), color-stop(100%, #747676));
+  background: -webkit-linear-gradient(top, #adafaf 0%, #747676 100%);
+  background: linear-gradient(to bottom, #adafaf 0%, #747676 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#adafaf', endColorstr='#747676', GradientType=0);
+}
+.standard .button.secondary:hover {
+  background: #ADAFAF;
+}
+.standard .sidebar {
+  float: right;
+  width: 272px;
+}
+.standard .sidebar > * {
+  border: solid 1px #DFDFDF;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(50, 50, 50, 0.1);
+  display: block;
+  background: #FFF;
+  background: -moz-linear-gradient(top, white 0%, #eeeeee 100%);
+  background: -ms-linear-gradient(top, white 0%, #eeeeee 100%);
+  background: -o-linear-gradient(top, white 0%, #eeeeee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #eeeeee));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#eeeeee', GradientType=0);
+  margin-bottom: 16px;
+  padding: 16px;
+}
+.standard .steps {
+  color: #333;
+  font-weight: bold;
+  padding: 24px;
+}
+.standard .steps span {
+  color: #ADAFAF;
+  display: block;
+  margin-bottom: 24px;
+}
+.standard .steps span:before {
+  content: "\f056";
+  font-family: "FontAwesome";
+  margin-right: 6px;
+}
+.standard .steps span.current {
+  color: #666;
+}
+.standard .steps span.current:before {
+  content: "\f0a4";
+}
+.standard .steps span.done {
+  color: #666;
+}
+.standard .steps span.done:before {
+  color: #D52B1E;
+  content: "\f00c";
+}
+.standard .blueLink {
+  background: none;
+  border: none;
+  color: #3381B7;
+  padding: 0;
+}
+.standard .blueLink:hover {
+  text-decoration: underline;
+}
+.standard .loginLink {
+  float: right;
+  margin-top: 12px;
+}
+.standard .quotedLink:after {
+  font-family: 'FontAwesome';
+  content: "\F101";
+  display: inline-block;
+  font-size: 1.2em;
+  margin-left: 0.3em;
+}
+.standard .controls {
+  clear: both;
+  margin-top: 12px;
+  text-align: right;
+}
+.standard .controls .icon-hand-right {
+  margin-right: 5px;
+}
+.standard .process {
+  margin-top: 24px;
+}
+.standard .process small {
+  color: #747676;
+  display: block;
+  font-size: 11px;
+}
+.standard .process small.error {
+  color: #D52B1E;
+}
+.standard .process fieldset dl {
+  display: block;
+  overflow: hidden;
+}
+.standard .process fieldset dl dt {
+  float: left;
+  clear: both;
+  min-width: 225px;
+}
+.standard .process fieldset dl dd {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.standard .process fieldset dl dd a {
+  display: block;
+  margin: 5px 0px;
+}
+.standard .process fieldset > div {
+  margin-bottom: 16px;
+}
+.standard .process fieldset > div > div {
+  display: inline-block;
+  padding-left: 10px;
+  vertical-align: top;
+}
+.standard .process fieldset > div > div input,
+.standard .process fieldset > div > div textarea {
+  width: 208px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.standard .process fieldset > div > div input {
+  line-height: normal;
+}
+.standard .process fieldset > div > div .fa {
+  color: #333;
+  font-size: 1.2em;
+  margin-left: 12px;
+}
+.standard .process fieldset select.calMonth,
+.standard .process fieldset select.calDay,
+.standard .process fieldset select.calYear {
+  width: 67px;
+}
+.standard .process fieldset .securityIndicator {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.standard .process fieldset .securityIndicator div {
+  border: solid 1px #ADAFAF;
+  height: 5px;
+  margin-bottom: 3px;
+  width: 144px;
+}
+.standard .process fieldset .securityIndicator div > div {
+  float: left;
+  overflow: hidden;
+  border: none;
+}
+.standard .process fieldset .securityIndicator div > div.easy {
+  width: 20%;
+  background: #d02e10;
+}
+.standard .process fieldset .securityIndicator div > div.medium {
+  width: 60%;
+  background: yellow;
+}
+.standard .process fieldset .securityIndicator div > div.hard {
+  width: 100%;
+  background: green;
+}
+.standard .process label {
+  display: inline-block;
+  font-weight: bold;
+  text-align: right;
+  width: 224px;
+}
+.standard .tooltip {
+  cursor: default;
+}
+.standard .tooltip:hover {
+  color: #d02e10 !important;
+}
+.standard .tooltipText {
+  background: #666;
+  color: white;
+  font-size: 0.7em;
+  max-width: 160px;
+  padding: 8px;
+  position: fixed;
+}
+.standard .tooltipText:before {
+  content: "";
+  position: absolute;
+  border-color: transparent;
+  border-right-color: #666;
+  border-style: solid;
+  border-width: 0 6px 6px;
+  right: 100%;
+  top: 0;
+}
+.paquetes-tarifas {
+  margin-bottom: 48px;
+}
+.paquetes-tarifas h2 {
+  padding-bottom: 12px !important;
+}
+.mod-paquetes-tarifas {
+  margin: 0 auto;
+  width: 960px;
+  *zoom: 1;
+  width: 940px;
+  margin: 24px auto;
+}
+.mod-paquetes-tarifas:before,
+.mod-paquetes-tarifas:after {
+  content: " ";
+  display: table;
+}
+.mod-paquetes-tarifas:after {
+  clear: both;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-paq,
+.mod-paquetes-tarifas .info-paquetes .elem-min,
+.mod-paquetes-tarifas .info-paquetes .elem-int,
+.mod-paquetes-tarifas .info-paquetes .elem-vig,
+.mod-paquetes-tarifas .info-paquetes .elem-can,
+.mod-paquetes-tarifas .info-paquetes .elem-cos,
+.mod-paquetes-tarifas .info-paquetes .elem-sms,
+.mod-paquetes-tarifas .info-paquetes .elem-pais,
+.mod-paquetes-tarifas .info-paquetes .elem-act,
+.mod-paquetes-tarifas .info-paquetes .elem-btr,
+.mod-paquetes-tarifas .info-paquetes .elem-portal,
+.mod-paquetes-tarifas .info-paquetes .elem-tienda,
+.mod-paquetes-tarifas .info-paquetes .elem-miclaro,
+.mod-paquetes-tarifas .info-paquetes .elem-asistencia,
+.mod-paquetes-tarifas .info-paquetes .elem-chat {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  display: block;
+  width: auto;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-paq span,
+.mod-paquetes-tarifas .info-paquetes .elem-min span,
+.mod-paquetes-tarifas .info-paquetes .elem-int span,
+.mod-paquetes-tarifas .info-paquetes .elem-vig span,
+.mod-paquetes-tarifas .info-paquetes .elem-can span,
+.mod-paquetes-tarifas .info-paquetes .elem-cos span,
+.mod-paquetes-tarifas .info-paquetes .elem-sms span,
+.mod-paquetes-tarifas .info-paquetes .elem-pais span,
+.mod-paquetes-tarifas .info-paquetes .elem-act span,
+.mod-paquetes-tarifas .info-paquetes .elem-btr span,
+.mod-paquetes-tarifas .info-paquetes .elem-portal span,
+.mod-paquetes-tarifas .info-paquetes .elem-tienda span,
+.mod-paquetes-tarifas .info-paquetes .elem-miclaro span,
+.mod-paquetes-tarifas .info-paquetes .elem-asistencia span,
+.mod-paquetes-tarifas .info-paquetes .elem-chat span {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-paq span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-min span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-int span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-vig span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-can span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-cos span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-sms span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-pais span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-act span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-btr span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-portal span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-tienda span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-miclaro span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-asistencia span:before,
+.mod-paquetes-tarifas .info-paquetes .elem-chat span:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: url(img/spr-paquete-tarifas.png) no-repeat;
+  width: 32px;
+  height: 32px;
+  top: -16px;
+  left: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-paq span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-min span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-int span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-vig span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-can span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-cos span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-sms span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-pais span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-act span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-btr span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-portal span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-tienda span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-miclaro span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-asistencia span strong,
+.mod-paquetes-tarifas .info-paquetes .elem-chat span strong {
+  display: block;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-paq span {
+  padding-left: 0px;
+  visibility: hidden;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-paq span:before {
+  background: none;
+  background-position: 0px 0px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-vig span:before {
+  background-position: 0px 0px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-can span:before {
+  background-position: -2px -32px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-min span:before {
+  background-position: -2px -64px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-act span:before {
+  background-position: 0px -96px;
+  top: -8px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-cos span:before {
+  background-position: 0px -128px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-int span:before {
+  background-position: 0px -160px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-sms span:before {
+  background-position: 0px -226px;
+  top: -8px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-pais span:before {
+  background-position: 0px -254px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-portal span:before {
+  background-position: 0px -288px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-tienda span:before {
+  background-position: 0px -320px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-miclaro span:before {
+  background-position: 0px -352px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-asistencia span:before {
+  background-position: 0px -384px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .elem-chat span:before {
+  background-position: 0px -416px;
+  top: -10px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 p,
+.mod-paquetes-tarifas .info-paquetes .col3 p,
+.mod-paquetes-tarifas .info-paquetes .col4 p,
+.mod-paquetes-tarifas .info-paquetes .col5 p,
+.mod-paquetes-tarifas .info-paquetes .col6 p,
+.mod-paquetes-tarifas .info-paquetes .col7 p,
+.mod-paquetes-tarifas .info-paquetes .col8 p {
+  font-size: 0.85em;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico + p,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico + p,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico + p,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico + p,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico + p,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico + p,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico + p {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-size: 0.9em;
+  padding: 4px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span,
+.mod-paquetes-tarifas .info-paquetes .col3 span,
+.mod-paquetes-tarifas .info-paquetes .col4 span,
+.mod-paquetes-tarifas .info-paquetes .col5 span,
+.mod-paquetes-tarifas .info-paquetes .col6 span,
+.mod-paquetes-tarifas .info-paquetes .col7 span,
+.mod-paquetes-tarifas .info-paquetes .col8 span {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding-left: 0px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-dec:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: url(img/spr-paquete-tarifas1.png) no-repeat;
+  width: 110px;
+  height: 35px;
+  top: 0px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-cant strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-cant strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-cant strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-cant strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-cant strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-cant strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-cant strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-aud strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-aud strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-aud strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-aud strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-aud strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-aud strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-aud strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-chd strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-chd strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-chd strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-chd strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-chd strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-chd strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-chd strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-dec strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-dec strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-dec strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-dec strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-dec strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-dec strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-dec strong {
+  display: block;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-cant:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-cant:before {
+  background-position: 0px 0px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-aud:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-aud:before {
+  background-position: 0px -35px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-chd:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-chd:before {
+  background-position: 0px -70px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-fox:before {
+  background-position: 0px -105px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-dec:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-dec:before {
+  background-position: 0px -140px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico {
+  height: 32px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv-hd,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv-hd,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv-hd,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv-hd,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv-hd,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv-hd,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv-hd,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-claro-play,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-claro-play,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-claro-play,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-claro-play,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-claro-play,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-claro-play,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-claro-play,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hotpack,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hotpack,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hotpack,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hotpack,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hotpack,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hotpack,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hotpack,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-precio,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-precio,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-precio,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-precio,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-precio,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-precio,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-precio,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-bajada,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-bajada,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-bajada,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-bajada,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-bajada,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-bajada,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-bajada,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-subida,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-subida,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-subida,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-subida,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-subida,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-subida,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-subida,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email2,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email2,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email2,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email2,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email2,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email2,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email2,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist-cobro,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist-cobro,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist-cobro,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist-cobro,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist-cobro,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist-cobro,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist-cobro,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist2,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist2,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist2,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist2,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist2,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist2,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist2,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-tiempo,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-tiempo,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-tiempo,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-tiempo,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-tiempo,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-tiempo,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-tiempo,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-internacional,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-internacional,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-internacional,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-internacional,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-internacional,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-internacional,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-internacional,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-amigos,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-amigos,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-amigos,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-amigos,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-amigos,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-amigos,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-amigos,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-audio,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-audio,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-audio,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-audio,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-audio,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-audio,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-audio,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-canal-hd,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-canal-hd,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-canal-hd,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-canal-hd,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-canal-hd,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-canal-hd,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-canal-hd,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-fox,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-fox,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-fox,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-fox,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-fox,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-fox,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-fox,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-decodificador,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-decodificador,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-decodificador,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-decodificador,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-decodificador,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-decodificador,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-decodificador,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hbo,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hbo,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hbo,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hbo,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hbo,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hbo,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hbo,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-portal,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-portal,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-portal,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-portal,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-portal,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-portal,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-portal,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tienda,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tienda,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tienda,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tienda,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tienda,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tienda,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tienda,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-miclaro,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-miclaro,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-miclaro,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-miclaro,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-miclaro,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-miclaro,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-miclaro,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-asistencia,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-asistencia,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-asistencia,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-asistencia,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-asistencia,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-asistencia,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-asistencia,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-chat,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-chat,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-chat,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-chat,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-chat,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-chat,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-chat {
+  width: 110px;
+  display: block;
+  margin: auto;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-chat:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: url(img/spr-pac-planes.png) no-repeat;
+  width: 110px;
+  height: 25px;
+  top: 6px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-claro-play strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-claro-play strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-claro-play strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-claro-play strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-claro-play strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-claro-play strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-claro-play strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-bajada strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-bajada strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-bajada strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-bajada strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-bajada strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-bajada strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-bajada strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-subida strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-subida strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-subida strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-subida strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-subida strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-subida strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-subida strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email2 strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email2 strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email2 strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email2 strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email2 strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email2 strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email2 strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist-cobro strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist-cobro strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist-cobro strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist-cobro strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist-cobro strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist-cobro strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist-cobro strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist2 strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist2 strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist2 strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist2 strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist2 strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist2 strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist2 strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-tiempo strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-tiempo strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-tiempo strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-tiempo strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-tiempo strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-tiempo strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-tiempo strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-internacional strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-internacional strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-internacional strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-internacional strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-internacional strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-internacional strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-internacional strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-amigos strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-amigos strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-amigos strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-amigos strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-amigos strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-amigos strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-amigos strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-audio strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-audio strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-audio strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-audio strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-audio strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-audio strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-audio strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-canal-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-canal-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-canal-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-canal-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-canal-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-canal-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-canal-hd strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-fox strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-decodificador strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-decodificador strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-decodificador strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-decodificador strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-decodificador strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-decodificador strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-decodificador strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-portal strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-portal strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-portal strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-portal strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-portal strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-portal strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-portal strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tienda strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tienda strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tienda strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tienda strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tienda strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tienda strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tienda strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-miclaro strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-miclaro strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-miclaro strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-miclaro strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-miclaro strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-miclaro strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-miclaro strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-asistencia strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-asistencia strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-asistencia strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-asistencia strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-asistencia strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-asistencia strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-asistencia strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-chat strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-chat strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-chat strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-chat strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-chat strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-chat strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-chat strong {
+  display: block;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv:before {
+  background-position: 0px 0px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tv-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tv-hd:before {
+  background-position: 0px -100px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-claro-play:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-claro-play:before {
+  background-position: 0px -75px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hotpack:before {
+  background-position: 0px -50px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-precio:before {
+  background-position: 0px -25px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-bajada:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-bajada:before {
+  background-position: 0px -125px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-subida:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-subida:before {
+  background-position: 0px -150px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email:before {
+  background-position: 0px -200px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-email2:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-email2:before {
+  background-position: 0px -175px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist-cobro:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist-cobro:before {
+  background-position: 0px -225px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist:before {
+  background-position: 0px -250px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-larga-dist2:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-larga-dist2:before {
+  background-position: 0px -275px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-tiempo:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-tiempo:before {
+  background-position: 0px -300px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-internacional:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-internacional:before {
+  background-position: 0px -375px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-telefonia-amigos:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-telefonia-amigos:before {
+  background-position: 0px -350px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-audio:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-audio:before {
+  background-position: 0px -475px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-canal-hd:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-canal-hd:before {
+  background-position: 0px -450px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-fox:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-fox:before {
+  background-position: 0px -425px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-decodificador:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-decodificador:before {
+  background-position: 0px -400px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-hbo:before {
+  background-position: 0px -500px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-portal:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-portal:before {
+  background-position: 0px -700px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-tienda:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-tienda:before {
+  background-position: 0px -725px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-miclaro:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-miclaro:before {
+  background-position: 0px -750px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-asistencia:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-asistencia:before {
+  background-position: 0px -775px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.ico-chat:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.ico-chat:before {
+  background-position: 0px -800px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-cap-email:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: url(img/sprite-planes-do.png) no-repeat;
+  width: 110px;
+  height: 24px;
+  top: 6px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-loc-fijos strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-loc-fijos strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-loc-fijos strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-loc-fijos strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-loc-fijos strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-loc-fijos strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-loc-fijos strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-loc-otros strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-loc-otros strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-loc-otros strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-loc-otros strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-loc-otros strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-loc-otros strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-loc-otros strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-larga-dist strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-incluidos strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-incluidos strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-incluidos strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-incluidos strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-incluidos strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-incluidos strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-incluidos strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-comunidad-claro strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-comunidad-claro strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-comunidad-claro strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-comunidad-claro strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-comunidad-claro strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-comunidad-claro strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-comunidad-claro strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-funcionalidades strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-funcionalidades strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-funcionalidades strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-funcionalidades strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-funcionalidades strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-funcionalidades strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-funcionalidades strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-tarifa-mensual strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-tarifa-mensual strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-tarifa-mensual strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-tarifa-mensual strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-tarifa-mensual strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-tarifa-mensual strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-tarifa-mensual strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-llamadas-paises strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-llamadas-paises strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-llamadas-paises strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-llamadas-paises strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-llamadas-paises strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-llamadas-paises strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-llamadas-paises strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hbo strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hotpack strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hotpack2 strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hotpack2 strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hotpack2 strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hotpack2 strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hotpack2 strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hotpack2 strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hotpack2 strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-claroPlay strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-claroPlay strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-claroPlay strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-claroPlay strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-claroPlay strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-claroPlay strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-claroPlay strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-precio strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-vel-descarga strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-vel-descarga strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-vel-descarga strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-vel-descarga strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-vel-descarga strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-vel-descarga strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-vel-descarga strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-vel-carga strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-vel-carga strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-vel-carga strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-vel-carga strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-vel-carga strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-vel-carga strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-vel-carga strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-email strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-email strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-email strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-email strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-email strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-email strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-email strong,
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-cap-email strong,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-cap-email strong,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-cap-email strong,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-cap-email strong,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-cap-email strong,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-cap-email strong,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-cap-email strong {
+  display: block;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-loc-fijos:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-loc-fijos:before {
+  background-position: 0px 0px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-loc-otros:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-loc-otros:before {
+  background-position: 0px -24px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-larga-dist:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-larga-dist:before {
+  background-position: 3px -48px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-min-incluidos:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-min-incluidos:before {
+  background-position: 15px -72px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-comunidad-claro:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-comunidad-claro:before {
+  background-position: 10px -96px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-funcionalidades:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-funcionalidades:before {
+  background-position: 0px -120px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-tarifa-mensual:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-tarifa-mensual:before {
+  background-position: 5px -144px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-llamadas-paises:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-llamadas-paises:before {
+  background-position: 12px -168px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hbo:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hbo:before {
+  background-position: 20px -192px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hotpack:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hotpack:before {
+  background-position: 12px -216px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-hotpack2:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-hotpack2:before {
+  background-position: 12px -240px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-claroPlay:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-claroPlay:before {
+  background-position: 15px -264px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-precio:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-precio:before {
+  background-position: 22px -288px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-vel-descarga:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-vel-descarga:before {
+  background-position: 10px -312px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-vel-carga:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-vel-carga:before {
+  background-position: 12px -336px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-email:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-email:before {
+  background-position: 12px -360px;
+}
+.mod-paquetes-tarifas .info-paquetes .col2 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col3 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col4 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col5 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col6 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col7 span.elem-cap-email:before,
+.mod-paquetes-tarifas .info-paquetes .col8 span.elem-cap-email:before {
+  background-position: 0px -384px;
+}
+.mod-paquetes-tarifas.prepago > dl .promoLeft,
+.mod-paquetes-tarifas.postpago > dl .promoLeft,
+.mod-paquetes-tarifas.tv > dl .promoLeft,
+.mod-paquetes-tarifas.roaming > dl .promoLeft,
+.mod-paquetes-tarifas.tvDigital > dl .promoLeft {
+  width: 100%;
+  float: left;
+}
+.mod-paquetes-tarifas.prepago > dl .promoRight,
+.mod-paquetes-tarifas.postpago > dl .promoRight,
+.mod-paquetes-tarifas.tv > dl .promoRight,
+.mod-paquetes-tarifas.roaming > dl .promoRight,
+.mod-paquetes-tarifas.tvDigital > dl .promoRight {
+  display: none;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dt .elem-paq,
+.mod-paquetes-tarifas.postpago > dl.promo dt .elem-paq,
+.mod-paquetes-tarifas.tv > dl.promo dt .elem-paq,
+.mod-paquetes-tarifas.roaming > dl.promo dt .elem-paq,
+.mod-paquetes-tarifas.tvDigital > dl.promo dt .elem-paq {
+  padding-left: 80px;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dt .elem-paq:before,
+.mod-paquetes-tarifas.postpago > dl.promo dt .elem-paq:before,
+.mod-paquetes-tarifas.tv > dl.promo dt .elem-paq:before,
+.mod-paquetes-tarifas.roaming > dl.promo dt .elem-paq:before,
+.mod-paquetes-tarifas.tvDigital > dl.promo dt .elem-paq:before {
+  background: url(img/promo-paquetes.png) no-repeat;
+  width: 63px;
+  left: 5px;
+  top: 13px;
+  height: 23px;
+  border-radius: 7px;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoLeft,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoLeft,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoLeft,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoLeft,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoLeft {
+  width: 67%;
+  float: left;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoRight,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoRight,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoRight,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoRight,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoRight {
+  display: block;
+  width: 28%;
+  margin-left: 2%;
+  float: left;
+  border: 10px solid #ddd;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoRight h3,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoRight h3,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoRight h3,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoRight h3,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoRight h3 {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 10px;
+  font-size: 1.3em;
+  text-align: center;
+  color: white;
+  background: #d02e10;
+  text-transform: uppercase;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoRight .contPromo,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoRight .contPromo,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoRight .contPromo,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoRight .contPromo,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoRight .contPromo {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 24px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoRight .contPromo p,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoRight .contPromo p,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoRight .contPromo p,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoRight .contPromo p,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoRight .contPromo p {
+  font-size: 13px;
+  color: black;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoRight .contPromo p > span,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoRight .contPromo p > span,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoRight .contPromo p > span,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoRight .contPromo p > span,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoRight .contPromo p > span {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 12px 0px;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoRight .contPromo p.price,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoRight .contPromo p.price,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoRight .contPromo p.price,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoRight .contPromo p.price,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoRight .contPromo p.price {
+  color: #d02e10;
+  font-weight: bold;
+  font-size: 2em;
+}
+.mod-paquetes-tarifas.prepago > dl.promo dd .promoRight .contPromo > .link,
+.mod-paquetes-tarifas.postpago > dl.promo dd .promoRight .contPromo > .link,
+.mod-paquetes-tarifas.tv > dl.promo dd .promoRight .contPromo > .link,
+.mod-paquetes-tarifas.roaming > dl.promo dd .promoRight .contPromo > .link,
+.mod-paquetes-tarifas.tvDigital > dl.promo dd .promoRight .contPromo > .link {
+  display: block;
+  margin: 24px 0px;
+  width: 100%;
+}
+.mod-paquetes-tarifas.prepago .elem-paq,
+.mod-paquetes-tarifas.postpago .elem-paq,
+.mod-paquetes-tarifas.tv .elem-paq,
+.mod-paquetes-tarifas.roaming .elem-paq,
+.mod-paquetes-tarifas.tvDigital .elem-paq,
+.mod-paquetes-tarifas.prepago .elem-btn,
+.mod-paquetes-tarifas.postpago .elem-btn,
+.mod-paquetes-tarifas.tv .elem-btn,
+.mod-paquetes-tarifas.roaming .elem-btn,
+.mod-paquetes-tarifas.tvDigital .elem-btn,
+.mod-paquetes-tarifas.prepago .col2,
+.mod-paquetes-tarifas.postpago .col2,
+.mod-paquetes-tarifas.tv .col2,
+.mod-paquetes-tarifas.roaming .col2,
+.mod-paquetes-tarifas.tvDigital .col2,
+.mod-paquetes-tarifas.prepago .col3,
+.mod-paquetes-tarifas.postpago .col3,
+.mod-paquetes-tarifas.tv .col3,
+.mod-paquetes-tarifas.roaming .col3,
+.mod-paquetes-tarifas.tvDigital .col3,
+.mod-paquetes-tarifas.prepago .col4,
+.mod-paquetes-tarifas.postpago .col4,
+.mod-paquetes-tarifas.tv .col4,
+.mod-paquetes-tarifas.roaming .col4,
+.mod-paquetes-tarifas.tvDigital .col4,
+.mod-paquetes-tarifas.prepago .col5,
+.mod-paquetes-tarifas.postpago .col5,
+.mod-paquetes-tarifas.tv .col5,
+.mod-paquetes-tarifas.roaming .col5,
+.mod-paquetes-tarifas.tvDigital .col5,
+.mod-paquetes-tarifas.prepago .col6,
+.mod-paquetes-tarifas.postpago .col6,
+.mod-paquetes-tarifas.tv .col6,
+.mod-paquetes-tarifas.roaming .col6,
+.mod-paquetes-tarifas.tvDigital .col6,
+.mod-paquetes-tarifas.prepago .col7,
+.mod-paquetes-tarifas.postpago .col7,
+.mod-paquetes-tarifas.tv .col7,
+.mod-paquetes-tarifas.roaming .col7,
+.mod-paquetes-tarifas.tvDigital .col7,
+.mod-paquetes-tarifas.prepago .col8,
+.mod-paquetes-tarifas.postpago .col8,
+.mod-paquetes-tarifas.tv .col8,
+.mod-paquetes-tarifas.roaming .col8,
+.mod-paquetes-tarifas.tvDigital .col8 {
+  float: left;
+}
+.mod-paquetes-tarifas.prepago .elem-paq,
+.mod-paquetes-tarifas.postpago .elem-paq,
+.mod-paquetes-tarifas.tv .elem-paq,
+.mod-paquetes-tarifas.roaming .elem-paq,
+.mod-paquetes-tarifas.tvDigital .elem-paq {
+  width: 240px !important;
+}
+.mod-paquetes-tarifas.prepago .elem-btn,
+.mod-paquetes-tarifas.postpago .elem-btn,
+.mod-paquetes-tarifas.tv .elem-btn,
+.mod-paquetes-tarifas.roaming .elem-btn,
+.mod-paquetes-tarifas.tvDigital .elem-btn {
+  width: 30px !important;
+}
+.mod-paquetes-tarifas.prepago .col2,
+.mod-paquetes-tarifas.postpago .col2,
+.mod-paquetes-tarifas.tv .col2,
+.mod-paquetes-tarifas.roaming .col2,
+.mod-paquetes-tarifas.tvDigital .col2 {
+  width: 330px !important;
+}
+.mod-paquetes-tarifas.prepago .col3,
+.mod-paquetes-tarifas.postpago .col3,
+.mod-paquetes-tarifas.tv .col3,
+.mod-paquetes-tarifas.roaming .col3,
+.mod-paquetes-tarifas.tvDigital .col3 {
+  width: 220px !important;
+}
+.mod-paquetes-tarifas.prepago .col4,
+.mod-paquetes-tarifas.postpago .col4,
+.mod-paquetes-tarifas.tv .col4,
+.mod-paquetes-tarifas.roaming .col4,
+.mod-paquetes-tarifas.tvDigital .col4 {
+  width: 165px !important;
+}
+.mod-paquetes-tarifas.prepago .col5,
+.mod-paquetes-tarifas.postpago .col5,
+.mod-paquetes-tarifas.tv .col5,
+.mod-paquetes-tarifas.roaming .col5,
+.mod-paquetes-tarifas.tvDigital .col5 {
+  width: 132px !important;
+}
+.mod-paquetes-tarifas.prepago .col6,
+.mod-paquetes-tarifas.postpago .col6,
+.mod-paquetes-tarifas.tv .col6,
+.mod-paquetes-tarifas.roaming .col6,
+.mod-paquetes-tarifas.tvDigital .col6 {
+  width: 110px !important;
+}
+.mod-paquetes-tarifas.prepago .col7,
+.mod-paquetes-tarifas.postpago .col7,
+.mod-paquetes-tarifas.tv .col7,
+.mod-paquetes-tarifas.roaming .col7,
+.mod-paquetes-tarifas.tvDigital .col7 {
+  width: 94.2px !important;
+}
+.mod-paquetes-tarifas.prepago .col8,
+.mod-paquetes-tarifas.postpago .col8,
+.mod-paquetes-tarifas.tv .col8,
+.mod-paquetes-tarifas.roaming .col8,
+.mod-paquetes-tarifas.tvDigital .col8 {
+  width: 82.5px !important;
+}
+.mod-paquetes-tarifas.prepago .elem-paq {
+  width: 250px;
+}
+.mod-paquetes-tarifas.prepago .elem-int {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-cos {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-act {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-portal {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-tienda {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-miclaro {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-asistencia {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-chat {
+  width: 200px;
+}
+.mod-paquetes-tarifas.prepago .elem-btn {
+  width: 40px;
+  padding: 17px 0px;
+  float: right;
+}
+.mod-paquetes-tarifas.prepago .elem-btn i.icon-chevron-up {
+  color: #d02e10;
+}
+.mod-paquetes-tarifas.postpago .elem-paq {
+  width: 220px;
+}
+.mod-paquetes-tarifas.postpago .elem-int {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-vig {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-cos {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-act {
+  width: 200px;
+}
+.mod-paquetes-tarifas.postpago .elem-portal {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-tienda {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-miclaro {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-asistencia {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-chat {
+  width: 155px;
+}
+.mod-paquetes-tarifas.postpago .elem-btn {
+  width: 30px;
+  padding: 17px 0px;
+  float: right;
+}
+.mod-paquetes-tarifas.postpago .elem-btn i.icon-chevron-up {
+  color: #d02e10;
+}
+.mod-paquetes-tarifas.tv .elem-paq {
+  width: 270px;
+}
+.mod-paquetes-tarifas.tv .elem-can {
+  width: 210px;
+}
+.mod-paquetes-tarifas.tv .elem-cos {
+  width: 205px;
+}
+.mod-paquetes-tarifas.tv .elem-portal {
+  width: 210px;
+}
+.mod-paquetes-tarifas.tv .elem-tienda {
+  width: 210px;
+}
+.mod-paquetes-tarifas.tv .elem-miclaro {
+  width: 210px;
+}
+.mod-paquetes-tarifas.tv .elem-asistencia {
+  width: 210px;
+}
+.mod-paquetes-tarifas.tv .elem-chat {
+  width: 210px;
+}
+.mod-paquetes-tarifas.tv .elem-btn {
+  width: 30px;
+  padding: 17px 0px;
+  float: right;
+}
+.mod-paquetes-tarifas.tv .elem-btn i.icon-chevron-up {
+  color: #d02e10;
+}
+.mod-paquetes-tarifas.roaming .elem-paq {
+  width: 252px;
+}
+.mod-paquetes-tarifas.roaming .elem-int {
+  width: 110px;
+}
+.mod-paquetes-tarifas.roaming .elem-min {
+  width: 110px;
+}
+.mod-paquetes-tarifas.roaming .elem-sms {
+  width: 100px;
+}
+.mod-paquetes-tarifas.roaming .elem-pais {
+  width: 120px;
+}
+.mod-paquetes-tarifas.roaming .elem-cos {
+  width: 140px;
+}
+.mod-paquetes-tarifas.roaming .elem-act {
+  width: 184px;
+}
+.mod-paquetes-tarifas.roaming .elem-portal {
+  width: 110px;
+}
+.mod-paquetes-tarifas.roaming .elem-tienda {
+  width: 110px;
+}
+.mod-paquetes-tarifas.roaming .elem-miclaro {
+  width: 110px;
+}
+.mod-paquetes-tarifas.roaming .elem-asistencia {
+  width: 110px;
+}
+.mod-paquetes-tarifas.roaming .elem-chat {
+  width: 110px;
+}
+.mod-paquetes-tarifas.roaming .elem-btn {
+  width: 30px;
+  padding: 17px 0px;
+  float: right;
+}
+.mod-paquetes-tarifas.roaming .elem-btn i.icon-chevron-up {
+  color: #d02e10;
+}
+.mod-paquetes-tarifas.tvDigital .info-paquetes {
+  height: 50px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-paq {
+  width: 252px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-cant {
+  width: 105px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-aud {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-chd {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-fox {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-dec {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-btr {
+  width: 110px;
+  padding: inherit;
+}
+.mod-paquetes-tarifas.tvDigital .elem-portal {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-tienda {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-miclaro {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-asistencia {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-chat {
+  width: 110px;
+}
+.mod-paquetes-tarifas.tvDigital .elem-btn {
+  width: 30px;
+  padding: 17px 0px;
+  float: right;
+}
+.mod-paquetes-tarifas.tvDigital .elem-btn i.icon-chevron-up {
+  color: #d02e10;
+}
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .elem-cant {
+  padding: 15px 5px;
+}
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .elem-paq p {
+  font-weight: 100;
+  margin-top: -12px;
+}
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .elem-paq p span {
+  display: block;
+  font-weight: bold;
+}
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .elem-btr {
+  padding: inherit;
+}
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .col2 p,
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .col3 p,
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .col4 p,
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .col5 p,
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .col6 p,
+.mod-paquetes-tarifas.tvDigital .com-paquete-acor .col7 p {
+  font-size: 0.75em;
+}
+.mod-paquetes-tarifas.rojo {
+  color: inherit !important;
+}
+.mod-paquetes-tarifas.rojo .com-paquete-acor .elem-paq {
+  background: #d02e10;
+}
+.mod-paquetes-tarifas .info-paquetes {
+  margin-bottom: 10px;
+  display: table;
+}
+.mod-paquetes-tarifas dl {
+  margin-bottom: 3px;
+}
+.mod-paquetes-tarifas dt {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  display: table;
+  border: 1px solid #ddd;
+  position: relative;
+  overflow: hidden;
+}
+.mod-paquetes-tarifas dd {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: 15px;
+  display: none;
+  overflow: hidden;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.mod-paquetes-tarifas .com-paquete-acor {
+  cursor: pointer;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+  width: 100%;
+  background: #eee;
+  max-height: 50px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq,
+.mod-paquetes-tarifas .com-paquete-acor .elem-min,
+.mod-paquetes-tarifas .com-paquete-acor .elem-int,
+.mod-paquetes-tarifas .com-paquete-acor .elem-vig,
+.mod-paquetes-tarifas .com-paquete-acor .elem-can,
+.mod-paquetes-tarifas .com-paquete-acor .elem-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-pais,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cos,
+.mod-paquetes-tarifas .com-paquete-acor .elem-act,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cant,
+.mod-paquetes-tarifas .com-paquete-acor .elem-aud,
+.mod-paquetes-tarifas .com-paquete-acor .elem-chd,
+.mod-paquetes-tarifas .com-paquete-acor .elem-fox,
+.mod-paquetes-tarifas .com-paquete-acor .elem-dec,
+.mod-paquetes-tarifas .com-paquete-acor .elem-btr,
+.mod-paquetes-tarifas .com-paquete-acor .col2,
+.mod-paquetes-tarifas .com-paquete-acor .col3,
+.mod-paquetes-tarifas .com-paquete-acor .col4,
+.mod-paquetes-tarifas .com-paquete-acor .col5,
+.mod-paquetes-tarifas .com-paquete-acor .col6,
+.mod-paquetes-tarifas .com-paquete-acor .col7,
+.mod-paquetes-tarifas .com-paquete-acor .col8 {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  float: left;
+  max-height: 50px;
+  font-size: 17px;
+  text-align: center;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-min > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-int > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-vig > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-can > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-sms > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-pais > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cos > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-act > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cant > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-aud > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-chd > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-fox > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-dec > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .elem-btr > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .col2 > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .col3 > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .col4 > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .col5 > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .col6 > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .col7 > .activ-sms,
+.mod-paquetes-tarifas .com-paquete-acor .col8 > .activ-sms {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  background: #dfdfdf;
+  padding: 5px;
+  width: auto;
+  margin: auto;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-min .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-int .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-vig .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-can .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-sms .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-pais .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cos .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-act .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cant .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-aud .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-chd .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-fox .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-dec .link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-btr .link,
+.mod-paquetes-tarifas .com-paquete-acor .col2 .link,
+.mod-paquetes-tarifas .com-paquete-acor .col3 .link,
+.mod-paquetes-tarifas .com-paquete-acor .col4 .link,
+.mod-paquetes-tarifas .com-paquete-acor .col5 .link,
+.mod-paquetes-tarifas .com-paquete-acor .col6 .link,
+.mod-paquetes-tarifas .com-paquete-acor .col7 .link,
+.mod-paquetes-tarifas .com-paquete-acor .col8 .link {
+  margin-top: 3px;
+  display: block;
+  font-size: 9px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-min .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-int .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-vig .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-can .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-sms .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-pais .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cos .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-act .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cant .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-aud .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-chd .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-fox .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-dec .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .elem-btr .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .col2 .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .col3 .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .col4 .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .col5 .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .col6 .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .col7 .no-link,
+.mod-paquetes-tarifas .com-paquete-acor .col8 .no-link {
+  margin-top: 3px;
+  display: block;
+  font-size: 9px;
+  color: #666 !important;
+  cursor: default;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-min .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-int .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-vig .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-can .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-sms .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-pais .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cos .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-act .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-cant .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-aud .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-chd .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-fox .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-dec .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .elem-btr .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .col2 .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .col3 .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .col4 .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .col5 .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .col6 .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .col7 .no-link:hover,
+.mod-paquetes-tarifas .com-paquete-acor .col8 .no-link:hover {
+  text-decoration: none;
+}
+.mod-paquetes-tarifas .com-paquete-acor .btn-solicitar {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: -5px !important;
+  font-size: 0.8em;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq {
+  background: #444;
+  color: white;
+  text-align: left;
+  padding: 15px 10px 15px 60px;
+  overflow: hidden;
+  min-height: 50px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq:before {
+  content: "";
+  display: block;
+  background: url(img/spr-paquete-tarifas.png) no-repeat 0 -192px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-paq p {
+  line-height: 1.5em;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-pais {
+  font-size: 14px;
+  padding: 19px 10px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-can {
+  font-size: 14px;
+  padding: 8px 10px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-can .link {
+  margin-top: 3px;
+  display: block;
+  font-size: 9px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-can .no-link {
+  margin-top: 3px;
+  display: block;
+  font-size: 9px;
+  color: #666 !important;
+  cursor: default;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-can .no-link:hover {
+  text-decoration: none;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-act {
+  float: left;
+  font-size: 12px;
+  padding: 3px 10px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-act .activ-sms {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  background: #dfdfdf;
+  padding: 5px;
+  width: auto;
+  margin: auto;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-act .link {
+  margin-top: 3px;
+  display: block;
+  font-size: 9px;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-act .no-link {
+  margin-top: 3px;
+  display: block;
+  font-size: 9px;
+  color: #666 !important;
+  cursor: default;
+}
+.mod-paquetes-tarifas .com-paquete-acor .elem-act .no-link:hover {
+  text-decoration: none;
+}
+.mod-paquetes-tarifas .com-paquete-desc {
+  float: left;
+  width: 100%;
+}
+.mod-paquetes-tarifas .com-paquete-desc > div {
+  overflow: hidden;
+}
+.mod-paquetes-tarifas .com-paquete-desc > div > ul.promoLeft {
+  list-style-type: inherit;
+  list-style-position: inside;
+}
+.mod-paquetes-tarifas .com-paquete-desc > div > ul.promoLeft li > ul {
+  list-style-type: inherit;
+  list-style-position: inside;
+}
+.mod-paquetes-tarifas .com-paquete-desc .link {
+  float: left;
+  margin: 12px 0px;
+  display: inline-block;
+}
+.mod-paquetes-tarifas .com-paquete-desc .link i {
+  margin-left: 5px;
+}
+.mod-paquetes-tarifas .com-paquete-desc .link.cerrar {
+  margin: 12px 0px;
+  display: none;
+  float: right;
+}
+.mod-paquetes-tarifas .com-paquete-desc .link.cerrar i {
+  margin-left: 5px;
+}
+.mod-paquetes-tarifas .com-paquete-desc ul li {
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+.mod-paquetes-tarifas .com-paquete-desc ul li img {
+  margin: 24px auto;
+  display: table;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec {
+  *zoom: 1;
+  width: 100%;
+  position: relative;
+  margin-top: 12px;
+  padding-bottom: 12px;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec:before,
+.mod-paquetes-tarifas .com-paquete-desc .planesRec:after {
+  content: " ";
+  display: table;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec:after {
+  clear: both;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec .planRec {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 165px;
+  height: 95px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 4px 4px 8px #999;
+  float: left;
+  display: block;
+  background: #eee;
+  color: #d02e10;
+  margin-right: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec .planRec:last-child {
+  margin-right: 0px;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec .planRec.red {
+  background: #d02e10;
+  color: white;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec .planRec img {
+  text-align: center;
+}
+.mod-paquetes-tarifas .com-paquete-desc .planesRec .planRec span {
+  display: none;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-weight: bold;
+}
+.mod-paquetes-tarifas.do .com-paquete-acor .elem-paq {
+  padding: 0 15px !important;
+  font-size: 1.2em;
+  display: table;
+  height: 50px;
+}
+.mod-paquetes-tarifas.do .com-paquete-acor .elem-paq p {
+  line-height: 1.2em !important;
+  display: table-cell;
+  vertical-align: middle;
+}
+.mod-paquetes-tarifas.do .com-paquete-acor .elem-paq:before {
+  display: none;
+}
+.mod-paquetes-tarifas.co .info-paquetes .ico {
+  background-position-x: center;
+}
+.mod-paquetes-tarifas.co .info-paquetes .elem-paq-carac {
+  width: 90%;
+  display: table;
+  text-align: center;
+  padding: 0 5%;
+}
+.mod-paquetes-tarifas.co .info-paquetes .elem-paq-carac p {
+  margin: 0;
+  font-size: 11px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+.datosP {
+  color: #666;
+  font-size: 0.9em;
+}
+.datosP p {
+  padding: 24px 0px;
+  line-height: 1.5em;
+}
+.datosP ul {
+  list-style: inherit;
+}
+.datosP ul li {
+  list-style-type: inherit;
+  list-style-position: inside;
+  line-height: 1.3em;
+  margin-bottom: 12px;
+}
+.mensaje-caja {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  width: 940px;
+  margin: 0 auto;
+}
+.mensaje-caja p {
+  padding: 15px 0 0;
+}
+.mensaje-caja i {
+  float: left;
+  font-size: 30px;
+  margin: 0 10px 0 0;
+}
+.mensaje-caja i.icon-exclamation-sign,
+.mensaje-caja i.icon-warning-sign {
+  color: #ffc600;
+}
+.mensaje-caja i.icon-map-marker {
+  color: #7d7d7d;
+}
+.mensaje-caja strong {
+  color: #d02e10;
+  font-weight: 400;
+}
+.mensaje-caja span {
+  display: block;
+  padding-top: 6px;
+}
+.mensaje-info {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  width: 940px;
+  margin: 15px auto 0;
+}
+.mensaje-info p {
+  float: right;
+}
+.mensaje-info p i {
+  font-size: 16px;
+  margin: 0 5px 0 0;
+}
+.mensaje-info p i.icon-exclamation-sign,
+.mensaje-info p i.icon-warning-sign {
+  color: #ffc600;
+}
+.mensaje-info p i.icon-map-marker {
+  color: #7d7d7d;
+}
+.mensaje-rojo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  float: left;
+  width: 940px;
+  margin: 15px auto 0;
+}
+.mensaje-rojo p {
+  color: #000;
+  background: #f9e5e4;
+  padding: 10px;
+}
+.mensaje-rojo p i {
+  font-size: 24px;
+  margin: -2px 0 0 0;
+  position: absolute;
+}
+.mensaje-rojo p i.exclamation-icon {
+  padding: 0 5px;
+  font-weight: bold;
+  font-style: normal;
+  color: #d02e10;
+}
+.mensaje-rojo p i.icon-exclamation-sign,
+.mensaje-rojo p i.icon-warning-sign {
+  color: #d02e10;
+}
+.mensaje-rojo p i.icon-map-marker {
+  color: #d02e10;
+}
+.mensaje-rojo p span {
+  margin-left: 25px;
+}
+.mod-form-paq {
+  width: 940px;
+  margin: 0 auto;
+}
+.mod-form-paq .mod-form-paq-cont {
+  float: left;
+  width: 100%;
+  margin: 30px 0 50px;
+}
+.mod-form-paq .mod-form-paq-cont .mod-form-column {
+  float: left;
+  width: 260px;
+  margin-right: 20px;
+}
+.mod-form-paq .mod-form-paq-cont .mod-form-column label {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.mod-form-paq .mod-form-paq-cont .mod-form-column select {
+  margin: 5px 0 3px;
+}
+.mod-form-paq .mod-form-paq-cont .mod-form-column span {
+  font-size: 11px;
+}
+.mod-form-paq .mod-form-paq-cont .mod-form-btn {
+  float: right;
+  margin-top: 14px;
+}
+#suc-virutal {
+  background-color: #F9F9F9;
+  background-image: linear-gradient(0deg, #dfdfdf 0%,white 100%);
+  box-shadow: 0 2px 3px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.13);
+  padding: 24px 0px;
+  margin-top: 24px;
+}
+#suc-virutal.secTv {
+  box-shadow: none !important;
+}
+#suc-virutal .preg-frecuetes,
+#suc-virutal .videTutoriales {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+}
+#suc-virutal .preg-frecuetes h2,
+#suc-virutal .videTutoriales h2 {
+  color: #333;
+}
+#suc-virutal .preg-frecuetes {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#suc-virutal .preg-frecuetes h2 {
+  margin-bottom: 24px;
+}
+#suc-virutal .preg-frecuetes form {
+  margin-bottom: 12px;
+  position: relative;
+}
+#suc-virutal .preg-frecuetes form input[type="text"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 50px 10px 10px;
+}
+#suc-virutal .preg-frecuetes form button.btn-rojo {
+  position: absolute;
+  right: -11px;
+  top: 0px;
+  padding: 0.7em;
+  width: auto;
+}
+#suc-virutal .preg-frecuetes form button.btn-rojo i {
+  margin: 0px;
+}
+#suc-virutal .preg-frecuetes ul {
+  margin-bottom: 24px;
+}
+#suc-virutal .preg-frecuetes ul li {
+  padding: 10px 0px;
+  border-bottom: 1px solid #ccc;
+}
+#suc-virutal .preg-frecuetes ul li:hover {
+  color: #3481b7;
+}
+#suc-virutal .preg-frecuetes .link {
+  float: right;
+}
+#suc-virutal .videTutoriales h2 {
+  margin-bottom: 24px;
+}
+#suc-virutal .videTutoriales > .info-videot {
+  width: 210px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 12px;
+  margin-left: 0px;
+}
+#suc-virutal .videTutoriales > .info-videot h3 {
+  font-size: 13px;
+  text-transform: none;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+#suc-virutal .videTutoriales .imgVideo {
+  width: auto;
+  height: 145px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+#suc-virutal .videTutoriales .imgVideo.playVideo a:after {
+  content: ' \F01D';
+  font-family: 'FontAwesome';
+  position: absolute;
+  color: white;
+  font-size: 5em;
+  top: 50%;
+  left: 50%;
+  margin-top: -31px;
+  margin-left: -29px;
+  opacity: 0.5;
+}
+#suc-virutal .videTutoriales .imgVideo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-align: center;
+}
+#suc-virutal .videTutoriales .imgVideo img {
+  width: 100%;
+}
+#suc-virutal .videTutoriales a.btn-content {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #F9F9F9;
+  background-image: linear-gradient(0deg, #dfdfdf 0%,white 100%);
+  position: relative;
+  line-height: 14px;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px 20px 10px 10px;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.12);
+  font-size: 12px;
+}
+#suc-virutal .videTutoriales a.btn-content i {
+  color: #d02e10;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -5px;
+}
+#suc-virutal.co .videTutoriales {
+  width: 960px;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+#suc-virutal.co .videTutoriales h2 {
+  margin-left: 10px;
+}
+#suc-virutal.co .videTutoriales .info-videot {
+  width: 220px;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+#sv-mejoras {
+  padding: 24px 0px 48px;
+  margin-top: 24px;
+}
+#sv-mejoras h2 {
+  margin: 0px 10px 24px;
+}
+#sv-mejoras .info-mejora {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #f8f8f8;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  padding: 12px;
+}
+#sv-mejoras .info-mejora img {
+  width: 100px;
+  height: 105px;
+  text-align: center;
+  display: table;
+  margin: 0px auto 5px;
+}
+#sv-mejoras h3 {
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  color: #333;
+}
+#sv-mejoras p {
+  font-size: 10px;
+  font-weight: 100;
+  text-align: justify;
+  margin-bottom: 12px;
+}
+#sv-mejoras a.link {
+  float: right;
+  margin-bottom: 10px;
+}
+#sv-mejoras .mejoraSeguridad,
+#sv-mejoras .mejoraMobile,
+#sv-mejoras .mejoraInfo,
+#sv-mejoras .mejoraClaridad {
+  background: url(img/spr-sucVirtual.png) no-repeat;
+  height: 110px;
+  width: 105px;
+  display: block;
+  margin: 0px auto;
+}
+#sv-mejoras .mejoraSeguridad {
+  background-position: 0px 0px;
+}
+#sv-mejoras .mejoraMobile {
+  background-position: -115px 0px;
+}
+#sv-mejoras .mejoraInfo {
+  background-position: -225px 0px;
+}
+#sv-mejoras .mejoraClaridad {
+  background-position: -335px 0px;
+}
+#cajetinDos .container {
+  position: relative;
+}
+#cajetinDos .contentCajetin {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 12;
+  top: 21px;
+  right: 12px;
+  width: 240px;
+  border-radius: 3px;
+}
+#cajetinDos .menu-login-chile {
+  background: #eee;
+}
+#cajetinDos .menu-login-chile h3 {
+  background: none;
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+#cajetinDos .menu-login-chile h3 span {
+  color: black;
+  font-size: 16px;
+}
+#cajetinDos .menu-login-chile form {
+  margin-top: 15px;
+}
+#cajetinDos .menu-login-chile fieldset dl {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#cajetinDos .menu-login-chile fieldset dl dt {
+  float: left;
+  clear: both;
+  width: 43px;
+  text-align: right;
+  padding: 3px 3px 0px 0px;
+  margin-bottom: 10px;
+}
+#cajetinDos .menu-login-chile fieldset dl dt:after {
+  content: ' : ';
+}
+#cajetinDos .menu-login-chile fieldset dl dd {
+  float: left;
+  margin-bottom: 10px;
+}
+#cajetinDos .menu-login-chile fieldset input[type="text"],
+#cajetinDos .menu-login-chile fieldset [type="password"] {
+  width: 120px;
+  padding: 3px 5px;
+}
+#cajetinDos .menu-login-chile fieldset div {
+  float: right;
+  margin-bottom: 20px;
+}
+#cajetinDos .menu-login-action a {
+  font-weight: 100;
+  font-size: 13px;
+  color: #3481b7;
+  margin-bottom: 5px;
+}
+.wrapper-claro-apps {
+  margin: 0 auto;
+  width: 960px;
+}
+.content-claro-apps {
+  float: left;
+  margin: 30px 0;
+  width: 100%;
+}
+.box-claro-apps {
+  background: #fefefe;
+  background: -moz-linear-gradient(top, #fefefe 0%, #ececec 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #ececec));
+  background: -webkit-linear-gradient(top, #fefefe 0%, #ececec 100%);
+  background: -o-linear-gradient(top, #fefefe 0%, #ececec 100%);
+  background: -ms-linear-gradient(top, #fefefe 0%, #ececec 100%);
+  background: linear-gradient(to bottom, #fefefe 0%, #ececec 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#ececec', GradientType=0);
+  border-radius: 10px 10px 0px 0;
+  border: 1px solid #cccccc;
+  float: left;
+  min-height: 244px;
+  padding: 15px 5px 10px;
+  position: relative;
+  width: 290px;
+}
+.claro-apps-img {
+  float: left;
+  opacity: 1;
+  width: 290px;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  text-align: center;
+}
+.claro-apps-img img {
+  width: 290px;
+}
+.claro-apps-title {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.claro-apps-title h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  padding: 0 !important;
+}
+.claro-apps-title span {
+  font-size: 13px;
+  color: #999;
+  line-height: 130%;
+  height: 30px;
+  float: left;
+}
+.claro-apps-download {
+  background: #FAFAFA;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid #CCC;
+  box-shadow: 0px -2px 4px #dfdfdf;
+  float: left;
+  padding: 10px;
+  width: 280px;
+}
+.claro-apps-download ul {
+  float: right;
+}
+.claro-apps-download ul li {
+  float: left;
+  margin-left: 10px;
+}
+.claro-apps-download ul li a:hover {
+  opacity: 0.5;
+}
+.claro-apps-download span {
+  color: #656565;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.claro-apps-description {
+  position: absolute;
+  top: 70px;
+  width: 272px;
+  opacity: 0;
+  left: 14px;
+  line-height: 135%;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  color: #454545;
+}
+.box-claro-apps:hover .claro-apps-description {
+  *display: block;
+  _display: block;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  margin-top: 5px;
+}
+.box-claro-apps:hover .claro-apps-img {
+  _display: none;
+  *display: none;
+  *visibility: hidden;
+  _visibility: hidden;
+  opacity: 0.1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+.content-in-claroapps {
+  float: left;
+  margin: 0 10px 30px;
+  width: 300px;
+}
+.claro-apps-btn {
+  float: left;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+.btn-red-apps {
+  background: #d52b1e;
+  background: -moz-linear-gradient(top, #d52b1e 0%, #941b12 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d52b1e), color-stop(100%, #941b12));
+  background: -webkit-linear-gradient(top, #d52b1e 0%, #941b12 100%);
+  background: -o-linear-gradient(top, #d52b1e 0%, #941b12 100%);
+  background: -ms-linear-gradient(top, #d52b1e 0%, #941b12 100%);
+  background: linear-gradient(to bottom, #d52b1e 0%, #941b12 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d52b1e', endColorstr='#941b12', GradientType=0);
+  border-radius: 4px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+  color: #ffffff !important;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.espnPlay > div {
+  *zoom: 1;
+  width: 950px;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 24px !important;
+}
+.espnPlay > div:before,
+.espnPlay > div:after {
+  content: " ";
+  display: table;
+}
+.espnPlay > div:after {
+  clear: both;
+}
+.espnPlay .panoramic {
+  height: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 1;
+}
+.espnPlay a.espnPlay-button {
+  background-color: #d02e10;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+  background-image: linear-gradient(0deg, #941b12 0%, #d52b1e 100%);
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  width: 87px;
+  width: 120px;
+  padding: 1em;
+  position: absolute;
+  right: 63px;
+  z-index: 10;
+}
+.espnPlay a.espnPlay-button:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 -2px 5px rgba(255,255,255,0.3);
+}
+.espnPlay a.espnPlay-button:active {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.espnPlay a.espnPlay-button-satelite {
+  top: 160px;
+}
+.espnPlay a.espnPlay-button-tv {
+  top: 230px;
+}
+.espnPlay a.espnPlay-button span {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: black;
+  display: block;
+  width: 120px;
+  position: absolute;
+  margin-top: 20px;
+  *eft: 0;
+  *top: 30px;
+}
+.conten-espn {
+  width: 940px;
+  margin: 12px auto;
+  position: relative;
+}
+.conten-espn .mod-iframe-espn {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 260px;
+  height: 390px;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+.conten-espn .mod-iframe-espn iframe {
+  width: 260px;
+  height: 370px;
+}
+.conten-espn .mod-iframe-espn .tvSat,
+.conten-espn .mod-iframe-espn .tvCab {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  background: white;
+  color: black;
+  text-transform: capitalize;
+  display: block;
+  padding: 7px 5px;
+  float: left;
+}
+.conten-espn .mod-iframe-espn .tvSat.active,
+.conten-espn .mod-iframe-espn .tvCab.active {
+  background: #d02e10;
+  color: white;
+}
+.lay-grilla-canales {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+  margin-bottom: 48px;
+}
+.lay-grilla-canales .mod-filter {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  padding: 15px 0px;
+}
+.lay-grilla-canales .mod-filter .buscadorL {
+  position: relative;
+  float: left;
+}
+.lay-grilla-canales .mod-filter .buscadorL input[type="text"],
+.lay-grilla-canales .mod-filter .buscadorL input[type="search"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 290px;
+  height: 30px;
+  padding: 5px;
+  padding-right: 80px;
+  margin-bottom: inherit;
+}
+.lay-grilla-canales .mod-filter .buscadorL input[type="search"] {
+  background-clip: padding-box;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  color: gray;
+}
+.lay-grilla-canales .mod-filter .buscadorL .clean-search {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  left: 190px;
+  top: 8px;
+}
+.lay-grilla-canales .mod-filter .buscadorL:hover .clean-search,
+.lay-grilla-canales .mod-filter .buscadorL:focus .clean-search {
+  display: block;
+}
+.lay-grilla-canales .mod-filter .buscadorL button.search {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #d02e10;
+  color: white;
+  position: absolute;
+  height: 29px;
+  width: auto;
+  padding: 8px 10px;
+  left: 215px;
+  top: 0px;
+  margin-right: -10px;
+  border-radius: 0px 3px 3px 0px;
+}
+.lay-grilla-canales .mod-filter .buscadorL button.search i {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+.lay-grilla-canales .mod-filter .elem-planCanales {
+  float: left;
+  vertical-align: middle;
+  padding: 7px 10px 20px;
+  margin-left: 25px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: inherit;
+}
+.lay-grilla-canales .mod-filter .elem-planCanales.active {
+  background: #d02e10;
+  color: white;
+}
+.lay-grilla-canales .mod-filter .elem-planCanales.rojo {
+  color: #d02e10;
+}
+.lay-grilla-canales .mod-filter .elem-planCanales.negro {
+  color: black;
+  text-transform: uppercase;
+}
+.lay-grilla-canales .mod-filter .elem-planCanales i {
+  padding: 4px;
+  background: #d02e10;
+  color: white;
+  border-radius: 3px;
+}
+.lay-grilla-canales .mod-filter .elem-planCanales.disabled {
+  cursor: default;
+}
+.lay-grilla-canales .mod-filter .elem-planCanales.disabled i {
+  background: #ababab;
+}
+.lay-grilla-canales .mod-filter .filtroR {
+  float: right;
+  margin-right: 20px;
+  padding-top: 2px;
+}
+.lay-grilla-canales .mod-filter .filtroR select {
+  width: 150px;
+  background: white;
+}
+.lay-grilla-canales .mod-filter .elem-btnImprimir {
+  float: right;
+  display: block;
+  margin-top: 6px;
+}
+.lay-grilla-canales .mod-filter .elem-btnImprimir a:hover {
+  text-decoration: underline;
+}
+.lay-grilla-canales .mod-filter .elem-btnImprimir a i {
+  font-size: 1.2em;
+  color: #d02e10;
+  margin-right: 5px;
+}
+.lay-grilla-canales .mod-filter .alfa-filter-horizontal {
+  float: left;
+  width: 100%;
+}
+.lay-grilla-canales .mod-filter .alfa-filter-horizontal .com-filter-alp {
+  float: left !important;
+}
+.lay-grilla-canales .mod-filter .alfa-filter-horizontal .com-filter-alp li {
+  clear: none !important;
+  margin-right: 8px !important;
+  margin-bottom: 0 !important;
+}
+.lay-grilla-canales .mod-btnImprimir {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  display: table;
+  text-align: center;
+  padding-top: 30px;
+}
+.lay-grilla-canales .mod-btnImprimir a {
+  display: inline-block;
+  padding: 10px 12px;
+  width: auto;
+}
+.lay-grilla-canales .mod-btnImprimir a i {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.lay-grilla-canales .mod-btnImprimir.top {
+  padding-top: 0 !important;
+  text-align: right;
+  padding-bottom: 15px;
+}
+.lay-grilla-canales .mod-grillaCompleta .mod-pseudoFilter {
+  position: absolute;
+  width: 940px;
+}
+.lay-grilla-canales .mod-grillaCompleta .mod-pseudoFilter .com-filter-expand {
+  top: -20px;
+}
+.lay-grilla-canales .mod-grillaCompleta .mod-content-grilla {
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background: #eee;
+}
+.lay-grilla-canales .mod-grillaCompleta .clean-filter {
+  color: #d02e10;
+  float: right;
+  text-decoration: underline;
+}
+.lay-grilla-canales .com-filter-alp {
+  float: right;
+}
+.lay-grilla-canales .com-filter-alp li {
+  margin-bottom: 3px;
+  float: left;
+  clear: both;
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+}
+.lay-grilla-canales .com-filter-alp li:hover a,
+.lay-grilla-canales .com-filter-alp li.activo a {
+  background: #2097aa;
+}
+.lay-grilla-canales .com-filter-alp li:hover a.disabled,
+.lay-grilla-canales .com-filter-alp li.activo a.disabled {
+  background: #ABABAB;
+}
+.lay-grilla-canales .com-filter-alp li a {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  background: #444;
+  display: block;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+.lay-grilla-canales .com-filter-alp li a.disabled {
+  background: #ABABAB;
+}
+.lay-grilla-canales .com-grilla {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 910px;
+  float: left;
+  margin: 24px 0px;
+  background: white;
+}
+.lay-grilla-canales .com-girillaPlanT {
+  float: left;
+  width: 100%;
+}
+.lay-grilla-canales .com-girillaPlanT thead {
+  background: #444;
+}
+.lay-grilla-canales .com-girillaPlanT thead h4 {
+  color: white;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+.lay-grilla-canales .com-girillaPlanT thead h4 span {
+  font-weight: 100;
+}
+.lay-grilla-canales .com-girillaPlanT tbody tr {
+  border-right: 1px solid #ddd;
+}
+.lay-grilla-canales .com-girillaPlanT tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.lay-grilla-canales .com-girillaPlanT tbody tr:nth-child(even) > td:nth-child(even) {
+  background: #f2f2f2;
+}
+.lay-grilla-canales .com-girillaPlanT tbody td {
+  height: 80px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+.lay-grilla-canales .com-girillaPlanT tbody td:nth-child(even) {
+  background: #fbfbfb;
+}
+.lay-grilla-canales .com-titulosGirilla {
+  width: 100%;
+  background: #f9f9f9;
+}
+.lay-grilla-canales .com-titulosGirilla tbody tr {
+  border-right: 1px solid #ddd;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td {
+  height: 60px;
+  vertical-align: middle;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  text-align: center;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planCanales {
+  font-size: 20px;
+  font-weight: bold;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planCanales.rojo {
+  color: #d02e10;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planCanales.negro {
+  color: black;
+  text-transform: uppercase;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-noplanCombo {
+  font-size: 14px;
+  border-right: 2px solid white;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planCanales {
+  border-right: 2px solid white;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-noplanAvanzado {
+  border-right: 2px solid white;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-noplanAvanzado p {
+  padding: 10px;
+  font-size: 10px;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-noplanBasico p {
+  padding: 10px;
+  font-size: 10px;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planAvanzado h4 {
+  color: black;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planSuperior h4 {
+  color: #d02e10;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planExtra h4 {
+  color: #2097aa;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td input[type="checkbox"] {
+  margin: 2px 7px 2px 10px;
+  float: left;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td.elem-planBasico h4 {
+  color: #888;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td h4 {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .precios {
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  margin-bottom: 2px;
+  line-height: inherit;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .canales {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+  line-height: inherit;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .order-by {
+  padding: 10px 5px !important;
+  display: inline-block;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .order-by a {
+  font-size: 9px;
+  text-align: left;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .order-by a strong {
+  font-weight: normal;
+  float: left;
+  display: inline-block;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .order-by a span {
+  float: right;
+  margin: 2px 0 0 4px;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .order-by a span.sort-icon {
+  width: 13px;
+  height: 14px;
+  background: url("img/spr-sort-channels.png") no-repeat 0 0;
+}
+.lay-grilla-canales .com-titulosGirilla tbody td .order-by a span.sort-icon-alt {
+  width: 13px;
+  height: 14px;
+  background: url("img/spr-sort-channels.png") no-repeat 0 -14px;
+}
+.lay-grilla-canales .com-fiter-superior {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.lay-grilla-canales .com-fiter-superior > div {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.lay-grilla-canales .com-fiter-superior > div > fieldset {
+  display: table;
+  margin: auto;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planCanales {
+  width: 193px;
+  font-weight: 100;
+  text-transform: none;
+  cursor: pointer;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planCanales i {
+  padding: 4px;
+  background: #d02e10;
+  color: white;
+  border-radius: 3px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planCanales.disabled {
+  cursor: default;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planCanales.disabled i {
+  background: #ababab;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planAvanzado {
+  width: 143px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planAvanzado > fieldset {
+  width: 92px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planSuperior {
+  width: 143px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planSuperior > fieldset {
+  width: 86px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planExtra {
+  width: 143px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planExtra > fieldset {
+  width: 63px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planBasico {
+  width: 143px;
+}
+.lay-grilla-canales .com-fiter-superior > div.elem-planBasico > fieldset {
+  width: 70px;
+}
+.lay-grilla-canales .com-fiter-superior .elem-planCanales.active {
+  background: #444;
+  color: white;
+}
+.lay-grilla-canales .com-filter-expand {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px;
+  display: none;
+  float: left;
+  width: 100%;
+  background: #f8f8f8;
+  color: black;
+  border: 1px solid #d02e10;
+  z-index: 10;
+  position: relative;
+}
+.lay-grilla-canales .com-filter-expand dl {
+  display: table;
+}
+.lay-grilla-canales .com-filter-expand dt,
+.lay-grilla-canales .com-filter-expand dd {
+  display: table-cell;
+}
+.lay-grilla-canales .com-filter-expand dt {
+  width: 130px;
+  font-size: 16px;
+  vertical-align: top;
+}
+.lay-grilla-canales .com-filter-expand dt h4 {
+  color: white;
+}
+.lay-grilla-canales .com-filter-expand dd {
+  width: 940px;
+}
+.lay-grilla-canales .com-filter-expand dd fieldset {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 16%;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.lay-grilla-canales .com-filter-expand.filter-columns .two-cols {
+  float: left;
+  width: 50%;
+  border-right: #ddd 1px solid;
+  box-sizing: border-box;
+}
+.lay-grilla-canales .com-filter-expand.filter-columns .two-cols h3 {
+  margin-bottom: 24px;
+}
+.lay-grilla-canales .com-filter-expand.filter-columns .two-cols dd {
+  width: auto;
+}
+.lay-grilla-canales .com-filter-expand.filter-columns .two-cols dd fieldset {
+  width: 33%;
+  min-height: 30px;
+}
+.lay-grilla-canales .com-filter-expand.filter-columns .two-cols dd fieldset label {
+  float: left;
+  width: 85%;
+}
+.lay-grilla-canales .com-filter-expand.filter-columns .two-cols:last-of-type {
+  border: none !important;
+  padding-left: 15px;
+}
+.lay-grilla-canales .elem-planCanales {
+  width: 190px;
+  text-align: center;
+}
+.lay-grilla-canales .elem-planCanales dl {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  display: table;
+  padding: 0px 10px;
+}
+.lay-grilla-canales .elem-planCanales dl dt,
+.lay-grilla-canales .elem-planCanales dl dd {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 49%;
+}
+.lay-grilla-canales .elem-planCanales dl dt > img,
+.lay-grilla-canales .elem-planCanales dl dd > img {
+  max-width: 70px;
+}
+.lay-grilla-canales .elem-planCanales dl dt a > img,
+.lay-grilla-canales .elem-planCanales dl dd a > img {
+  max-width: 70px;
+}
+.lay-grilla-canales .elem-noplanCombo {
+  width: 146px;
+  text-align: center;
+}
+.lay-grilla-canales .elem-noplanAvanzado {
+  width: 70px;
+  text-align: center;
+}
+.lay-grilla-canales .elem-noplanBasico {
+  width: 70px;
+  text-align: center;
+}
+.lay-grilla-canales .elem-planAvanzado {
+  width: 140px;
+}
+.lay-grilla-canales .elem-planSuperior {
+  width: 140px;
+}
+.lay-grilla-canales .elem-planExtra {
+  width: 140px;
+}
+.lay-grilla-canales .elem-planBasico {
+  width: 140px;
+}
+.lay-grilla-canales span.check {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  display: block;
+  border-radius: 50%;
+  background: #2097aa;
+  color: white;
+  padding: 8px 5px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+.lay-grilla-canales span.check:before {
+  content: " ";
+  background: url(img/icon-checkin.png) no-repeat;
+  width: 16px;
+  height: 10px;
+  display: block;
+}
+.lay-grilla-canales .cerrarExpand {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px 5px;
+  border-radius: 50%;
+  color: #FFF;
+  background: #888;
+  border: 2px solid #FFF;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  text-align: center;
+}
+.lay-grilla-canales .cerrarExpand:before {
+  content: "Cerrar";
+  text-transform: uppercase;
+  font-size: 0.85em;
+  color: #888;
+  position: absolute;
+  top: 7px;
+  left: -50px;
+}
+.lay-grilla-canales .cerrarExpand i {
+  margin: 0;
+  padding: 0px;
+}
+.btn-subir {
+  cursor: pointer;
+  right: 60px;
+}
+.btn-subir:before {
+  content: " ";
+  width: 41px;
+  height: 41px;
+  top: -10px;
+  left: 50%;
+  margin-left: -20px;
+  position: relative;
+  display: block;
+  background: url(img/btn_ir_arriba.png) no-repeat;
+  background-position: -42px 0px;
+}
+.btn-subir:hover:before {
+  background-position: 0px 0px;
+}
+@media print {
+  body {
+    width: 20cm;
+  }
+  #header,
+  #mainmenu,
+  .panel-main-menu,
+  #bigfooter,
+  #footer,
+  .ipad #mainmenu {
+    display: none;
+  }
+  #h-magazine-alt,
+  #promo {
+    display: none;
+  }
+  #actions,
+  #complementarios {
+    display: none;
+  }
+  .menutab-red {
+    color: #666;
+    font-weight: normal;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  .menutab-red > li.selected a {
+    color: black;
+    font-weight: bold;
+  }
+  .menutab-red > li.selected a:before {
+    border-color: black rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  }
+  #floating-sochi-left,
+  #floating-sochi-right,
+  #floating-navidad-left,
+  #floating-navidad-right,
+  #floating-factura-small,
+  #floating-social,
+  #floating-social-tooltip,
+  #floating-chat,
+  #floating-get,
+  #floating-chat-dual,
+  #floating-chat-dual-ec,
+  #floating-chat-dual-cl,
+  #floating-ideasmusik,
+  #floating-ideasmusik-cl,
+  #floating-portadatos-co,
+  #floating-miclaro,
+  #floating-video-ideas,
+  #floating-chat-empr,
+  #floating-chat-corp #floating-claro-te-ayuda,
+  #mc-tabwrap {
+    display: none;
+  }
+  #compra-ar .formulario-universal .formulario-progreso {
+    display: none;
+  }
+  #compra-ar .formulario-universal > form > div {
+    margin-left: 3%;
+  }
+  #compra-ar .compraExitosa {
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+  #compra-ar .resumenCompra .actions {
+    display: none;
+  }
+  #compra-ar .resumenCompra .importan {
+    display: none;
+  }
+  .mod-filter,
+  .mod-pseudoFilter,
+  .mod-btnImprimir,
+  .btn-subir,
+  .com-titulosGirilla tr td .btn-rojo {
+    display: none !important;
+  }
+  .lay-grilla-canales span.check:before {
+    content: "\F046";
+    font-family: "FontAwesome";
+    color: #2097aa;
+    font-size: 1em;
+  }
+}
+#recomendados {
+  padding: 25px 0;
+}
+#recomendados .menutab-red > li > a {
+  position: relative;
+  max-width: 250px;
+  min-width: inherit;
+  padding: 0 20px 0 50px;
+}
+#recomendados .menutab-red > li > a:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 21px;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  background: url('img/sprite-recomendados.png') no-repeat;
+}
+#recomendados .menutab-red > li > a.ico-paquetes:after {
+  background-position: 0 0;
+}
+#recomendados .menutab-red > li > a.ico-paquetes:hover:after,
+#recomendados .menutab-red > li > a.ico-paquetes.selected:after {
+  background-position: 0 -120px;
+}
+#recomendados .menutab-red > li > a.ico-deportes:after {
+  background-position: 0 -20px;
+}
+#recomendados .menutab-red > li > a.ico-deportes:hover:after,
+#recomendados .menutab-red > li > a.ico-deportes.selected:after {
+  background-position: 0 -140px;
+}
+#recomendados .menutab-red > li > a.ico-peliculas:after {
+  background-position: 0 -40px;
+}
+#recomendados .menutab-red > li > a.ico-peliculas:hover:after,
+#recomendados .menutab-red > li > a.ico-peliculas.selected:after {
+  background-position: 0 -160px;
+}
+#recomendados .menutab-red > li > a.ico-infantil:after {
+  background-position: 0 -60px;
+}
+#recomendados .menutab-red > li > a.ico-infantil:hover:after,
+#recomendados .menutab-red > li > a.ico-infantil.selected:after {
+  background-position: 0 -180px;
+}
+#recomendados .menutab-red > li > a.ico-series:after {
+  background-position: 0 -80px;
+}
+#recomendados .menutab-red > li > a.ico-series:hover:after,
+#recomendados .menutab-red > li > a.ico-series.selected:after {
+  background-position: 0 -200px;
+}
+#recomendados .menutab-red > li > a.ico-variedades:after {
+  background-position: 0 -100px;
+}
+#recomendados .menutab-red > li > a.ico-variedades:hover:after,
+#recomendados .menutab-red > li > a.ico-variedades.selected:after {
+  background-position: 0 -220px;
+}
+#recomendados h2 {
+  padding: 24px 0 24px 10px;
+}
+#recomendados .section-header {
+  padding-top: 26px;
+}
+#recomendados .section-header h2 {
+  float: left;
+  position: relative;
+  padding-left: 58px;
+}
+#recomendados .section-header h2:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 42px;
+  height: 40px;
+  top: 10px;
+  left: 10px;
+  background: url('img/sprite-recomendados.png') no-repeat;
+  background-position: 0 -240px;
+}
+#recomendados .section-header .btn-rojo {
+  float: right;
+  width: 240px;
+  margin: 20px 10px 0 0;
+}
+#recomendados .section-header .header-paquetes:before {
+  background-position: 0 -240px;
+}
+#recomendados .section-header .header-deportes:before {
+  background-position: 0 -280px;
+}
+#recomendados .section-header .header-peliculas:before {
+  background-position: 0 -320px;
+}
+#recomendados .section-header .header-infantil:before {
+  background-position: 0 -360px;
+}
+#recomendados .section-header .header-series:before {
+  background-position: 0 -400px;
+}
+#recomendados .section-header .header-variedades {
+  padding-left: 68px;
+}
+#recomendados .section-header .header-variedades:before {
+  width: 52px;
+  background-position: 0 -440px;
+}
+#recomendados .section-header .header-hd {
+  padding-left: 73px;
+}
+#recomendados .section-header .header-hd:before {
+  width: 57px;
+  background-position: 0 -602px;
+}
+#recomendados .section-header .header-premium:before {
+  height: 39px;
+  background-position: 0 -642px;
+}
+#recomendados .section-header .header-pague {
+  padding-left: 89px;
+}
+#recomendados .section-header .header-pague:before {
+  width: 73px;
+  background-position: 0 -681px;
+}
+#recomendados .section-header .header-avanzada:before {
+  width: 40px;
+  background-position: 0 -721px;
+}
+#recomendados .section-header .header-basica:before {
+  width: 40px;
+  background-position: 0 -761px;
+}
+#recomendados .module-header {
+  width: 918px;
+  min-height: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  background: #f8f8f8;
+  border: #ddd 1px solid;
+}
+#recomendados .module-header h3 {
+  font-size: 20px;
+  position: relative;
+  float: left;
+  margin-right: 8px;
+  padding: 0 8px 0 34px;
+  border-right: #ddd 1px solid;
+}
+#recomendados .module-header h3:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 17px;
+  margin-top: -2px;
+  top: 0;
+  left: 0;
+  background: url('img/sprite-recomendados.png') no-repeat;
+  background-position: 0 -480px;
+}
+#recomendados .module-header .link {
+  float: left;
+  margin-top: 5px;
+}
+#recomendados .module-header .header-m-hd:before {
+  width: 24px;
+  height: 17px;
+  margin-top: 1px;
+  background-position: 0 -480px;
+}
+#recomendados .module-header .header-m-premium:before {
+  width: 25px;
+  height: 23px;
+  background-position: 0 -519px;
+}
+#recomendados .module-header .header-m-pague:before {
+  width: 24px;
+  height: 13px;
+  margin-top: 4px;
+  background-position: 0 -542px;
+}
+#recomendados .module-header .header-m-avanzada:before {
+  width: 24px;
+  height: 24px;
+  background-position: 0 -555px;
+}
+#recomendados .module-header .header-m-basica:before {
+  width: 24px;
+  height: 23px;
+  background-position: 0 -579px;
+}
+#recomendados .recomendados-slider-container {
+  float: left;
+  width: 940px;
+  margin: 24px 0;
+  padding-left: 10px;
+}
+#recomendados .recomendados-slider-container .recomendados-slider li {
+  float: left;
+  margin-right: 20px !important;
+}
+#recomendados .recomendados-slider-container .bx-wrapper .bx-prev {
+  left: -35px;
+  top: 40% !important;
+}
+#recomendados .recomendados-slider-container .bx-wrapper .bx-next {
+  right: -35px;
+  top: 40% !important;
+}
+#recomendados .video-element {
+  width: 300px;
+}
+#recomendados .video-element .video-link-img a {
+  display: block;
+  position: relative;
+  width: 300px;
+  min-height: 200px;
+}
+#recomendados .video-element .video-link-img a span {
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  top: 12px;
+  right: 12px;
+  background: url('img/sprite-recomendados.png') no-repeat;
+  background-position: 0 -497px;
+}
+#recomendados .video-element .video-link-img a p {
+  position: absolute;
+  font-size: 17px;
+  color: #fff;
+  bottom: 0;
+  width: 282px;
+  padding: 8px 9px;
+  background: #404040;
+  text-shadow: 1px 1px 2px #000000;
+}
+#recomendados .video-element h4 {
+  font-size: 14px;
+  float: left;
+  width: 100%;
+  margin: 12px 0 4px;
+}
+#recomendados .video-element .video-info {
+  font-size: 12px;
+  float: left;
+  width: 100%;
+  margin-bottom: 12px;
+}
+#recomendados .video-element .video-info p {
+  float: left;
+}
+#recomendados .video-element .video-info span {
+  float: right;
+}
+#recomendados .recomendados-cat-container {
+  float: left;
+}
+#recomendados .recomendados-cat-container ul li {
+  float: left;
+  margin: 0 10px;
+  padding-bottom: 36px;
+}
+#recomendados .box-filter {
+  width: 918px;
+  height: 100px;
+  margin: 0 0 14px 10px;
+  padding: 10px;
+  background: #f8f8f8;
+  border: #ddd 1px solid;
+}
+#recomendados .box-filter .box-filter-column1 {
+  float: left;
+  width: 230px;
+}
+#recomendados .box-filter .box-filter-column2 {
+  float: left;
+  width: 400px;
+  margin-top: 15px;
+}
+#recomendados .box-filter .box-filter-column3 {
+  float: left;
+  width: 268px;
+  height: 70px;
+  margin-top: 10px;
+  padding: 5px 0 5px 18px;
+  border-left: #ddd 1px solid;
+}
+#recomendados .box-filter .box-filter-column3 label {
+  float: left;
+  margin-right: 5px;
+}
+#recomendados .box-filter .box-filter-column3 select {
+  float: left;
+  width: 100px;
+  margin-top: -5px;
+  background: #fff;
+}
+#recomendados .box-filter .box-filter-checkbox {
+  float: left;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.video-element-container {
+  color: #fff;
+  float: left;
+  width: 740px;
+  height: 480px;
+  padding: 20px;
+  background: #000;
+}
+.video-element-container h1,
+.video-element-container h2,
+.video-element-container h3,
+.video-element-container h4,
+.video-element-container h5,
+.video-element-container h6 {
+  color: #fff;
+}
+.video-element-container .video-element-top {
+  text-align: right;
+  float: left;
+  width: 720px;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+.video-element-container .video-element-top p {
+  font-size: 18px;
+}
+.video-element-container .video-element-header {
+  float: left;
+  width: 740px;
+  margin-bottom: 24px;
+}
+.video-element-container .video-element-header h1 {
+  font-size: 30px;
+}
+.video-element-container .video-element-header h2 {
+  font-size: 24px;
+  color: #d12f11;
+  font-weight: normal;
+}
+.video-element-container .video-element-left {
+  float: left;
+  width: 460px;
+}
+.video-element-container .video-element-right {
+  float: right;
+  width: 260px;
+}
+.video-element-container .video-element-right .video-element-channel {
+  float: left;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.video-element-container .video-element-right .video-element-text {
+  float: left;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 24px;
+  overflow-y: scroll;
+}
+.video-element-container .video-element-right .video-element-text span {
+  color: #ddd !important;
+  float: left;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.video-element-container .video-element-right .video-element-text p {
+  line-height: 18px;
+  float: left;
+  padding: 12px 10px 12px 0 ;
+}
+.video-element-container .btn-gris-light {
+  color: #333 !important;
+  width: 240px;
+  margin-bottom: 24px;
+  padding: 10px !important;
+}
+.video-element-container .btn-gris-light i {
+  color: #d12f11;
+}
+.video-element-container .btn-rojo {
+  width: 240px;
+  padding: 10px !important;
+}
+.ipad #mainmenu {
+  background-image: linear-gradient(0deg, #555 0%,#aaa 100%);
+  height: 66px;
+  margin: 0px;
+  padding: 5px 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 50;
+  border-bottom: 1px solid #333;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.65);
+}
+.ipad #mainmenu .ico-left,
+.ipad .ipad #mainmenu .ico-left {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  height: 66px;
+}
+.ipad #mainmenu .ico-left span,
+.ipad #mainmenu .ico-left a,
+.ipad .ipad #mainmenu .ico-left span,
+.ipad .ipad #mainmenu .ico-left a {
+  margin-top: 12px;
+  border-radius: 5px;
+  border: 1px solid #666;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  display: inline-block;
+  text-shadow: 1px 1px #666;
+}
+.ipad #mainmenu .ico-left span i,
+.ipad #mainmenu .ico-left a i,
+.ipad .ipad #mainmenu .ico-left span i,
+.ipad .ipad #mainmenu .ico-left a i {
+  margin: 0px 5px 0px 0px;
+}
+.ipad #mainmenu .title,
+.ipad .ipad #mainmenu .title {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  color: white;
+  display: table;
+  font-size: 2em;
+  font-weight: bold;
+  height: 66px;
+  text-align: center;
+}
+.ipad #mainmenu .title p,
+.ipad .ipad #mainmenu .title p {
+  display: table-cell;
+  text-shadow: 2px 2px #666;
+  vertical-align: middle;
+}
+.ipad #mainmenu .logo,
+.ipad .ipad #mainmenu .logo {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  text-align: right;
+}
+.ipad #mainmenu .logo a,
+.ipad .ipad #mainmenu .logo a {
+  background: url(img/logo-claro.png) no-repeat;
+  display: inline-block;
+  height: 66px;
+  width: 66px;
+}
+.ipad .panel-titulo {
+  margin-top: 100px;
+}
+.ipad #catalogo-home {
+  margin: 12px 0;
+}
+.ipad .js-tabEngine .panel-titulo {
+  margin-top: 24px;
+}
