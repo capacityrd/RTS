@@ -1,9 +1,9 @@
-INSERT INTO `RTS_STB` (`ID`, `channelNumber`, `channelName`, `URL`, `status`, `block`, `image`, `country`) 
+﻿INSERT INTO `RTS_STB` (`ID`, `channelNumber`, `channelName`, `URL`, `status`, `block`, `image`, `country`) 
 VALUES 
 (NULL, '70', 'Educativo', '', '1', '', '', ''), 
 (NULL, '67', 'Cubavisión', '', '1', '', '', ''),
 (NULL, '59', 'Naranja TV', '', '1', '', '', '')
 ;
 
-//
+
 delete from rts_stb where id in (107, 34, 39, 41, 108,81,82,90,91,92)
